@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Obsidia</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav__logo">
+        <a href="#"><img src="assets/logos/logo1.png" alt="Obsidia Logo" /></a>
+      </div>
+      <ul class="nav__links">
+        <li class="link"><a href="#">Home</a></li>
+        <li class="link"><a href="#services">Services</a></li>
+        <li class="link"><a href="#testimonials">Testimonials</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="btn">Get Started</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="section__container header__container">
+      <div class="header__content">
+        <span class="bg__blur"></span>
+        <span class="bg__blur header__blur"></span>
+        <h4>Elite Technical Solutions</h4>
+        <h1><span>Obsidia</span></h1>
+        <p>
+          We provide high-end technical support and consulting for individuals and companies who demand precision, confidentiality, and unmatched performance. From system installations to advanced problem-solving, Obsidia delivers excellence with speed and discretion.
+        </p>
+        <button class="btn">Get Premium Support</button>
+      </div>
+      <div class="header__image">
+        <img src="assets/logo.png" alt="Obsidia Logo" />
+      </div>
+    </header>
+
+    <!-- Services Section -->
+<section id="services" class="section__container explore__container">
+  <div class="explore__header">
+    <h2 class="section__header">Our <span>Services</span></h2>
+    <p class="section__subheader">
+      Obsidia delivers professional, discreet, and high-performance technology solutions for clients who expect perfection.
+    </p>
+  </div>
+
+  <div class="explore__grid">
+
+    <div class="explore__card">
+      <span><i class="ri-macbook-fill"></i></span>
+      <h4>System Installation & Setup</h4>
+      <p>
+        Tailored installation and optimization of Windows, macOS, and Linux systems.  
+        We configure your devices for peak performance — clean, secure, and ready for work or business deployment.
+      </p>
+      <a href="#">Learn More <i class="ri-arrow-right-line"></i></a>
+    </div>
+
+    <div class="explore__card">
+      <span><i class="ri-cpu-fill"></i></span>
+      <h4>Hardware Optimization</h4>
+      <p>
+        Professional component installation, thermal paste replacement, RAM and SSD upgrades, and system diagnostics.  
+        Every detail tuned for stability, silence, and performance.
+      </p>
+      <a href="#">Learn More <i class="ri-arrow-right-line"></i></a>
+    </div>
+
+    <div class="explore__card">
+      <span><i class="ri-bug-fill"></i></span>
+      <h4>Troubleshooting & Repair</h4>
+      <p>
+        Fast and precise issue resolution for software, driver, or hardware problems.  
+        On-site or remote, our experts restore your system’s reliability while maintaining complete confidentiality.
+      </p>
+      <a href="#">Learn More <i class="ri-arrow-right-line"></i></a>
+    </div>
+
+    <div class="explore__card">
+      <span><i class="ri-key-fill"></i></span>
+      <h4>Software Licensing & Activation</h4>
+      <p>
+        Genuine Windows and Office activation keys, secure software installations, and subscription management for professional platforms — all handled transparently and efficiently.
+      </p>
+      <a href="#">Learn More <i class="ri-arrow-right-line"></i></a>
+    </div>
+
+    <div class="explore__card">
+      <span><i class="ri-database-2-fill"></i></span>
+      <h4>Data Transfer & Protection</h4>
+      <p>
+        Secure migration and recovery of sensitive data between systems or drives.  
+        We guarantee discretion, accuracy, and zero data loss under any condition.
+      </p>
+      <a href="#">Learn More <i class="ri-arrow-right-line"></i></a>
+    </div>
+
+    <div class="explore__card">
+      <span><i class="ri-lightbulb-flash-fill"></i></span>
+      <h4>Consulting & Tech Guidance</h4>
+      <p>
+        Personalized consultations for companies and creative professionals on choosing systems, tools, and platforms that enhance productivity and power innovation.
+      </p>
+      <a href="#">Learn More <i class="ri-arrow-right-line"></i></a>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section__container contact__container">
+      <h2 class="section__header">Get in Touch</h2>
+      <p>Need reliable IT & AI solutions? Let’s talk.</p>
+      <form class="contact__form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__content">
+        <p>© 2025 Obsidia — All Rights Reserved</p>
+        <p>Precision. Power. Perfection.</p>
+      </div>
+    </footer>
+  </body>
+</html>
